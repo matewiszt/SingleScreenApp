@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="company_name">Panetteria Capricciosa</string>
+    <string name="opening">Opening Hours:</string>
+    <string name="weekday">Mo-Fri: 6-18</string>
+    <string name="holiday">Sa-Su: 7-12</string>
+    <string name="address">Address:</string>
+    <string name="address_details">201120 Milano, Via Appia 20</string>
+</resources>

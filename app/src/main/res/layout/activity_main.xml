@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:text="@string/company_name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/bakery"
+        android:id="@+id/bakery"
+        android:layout_below="@id/heading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opening"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hours"
+        android:layout_below="@id/bakery"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weekday"
+        android:textColor="@android:color/black"
+        android:paddingTop="5dp"
+        android:id="@+id/weekday"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hours"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/holiday"
+        android:textColor="@android:color/black"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/holiday"
+        android:layout_below="@id/weekday"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/address"
+        android:layout_below="@id/holiday"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_details"
+        android:textColor="@android:color/black"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/address"/>
+</RelativeLayout>
